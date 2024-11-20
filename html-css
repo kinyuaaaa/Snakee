@@ -1,0 +1,85 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Alice Blue for a clean look */
+    color: #333; /* Dark gray text for readability */
+}
+
+/* Header Styling */
+header {
+    background: #1e90ff; /* Dodger Blue for a bold header */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation Links */
+header nav a {
+    color: #fffa65; /* Bright yellow for links */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header nav a:hover {
+    color: #ff6347; /* Tomato red on hover for emphasis */
+    text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+    color: #1e90ff; /* Dodger Blue to match the header */
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #4682b4; /* Steel Blue for subheadings */
+    font-size: 1.8rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Ordered and Unordered Lists */
+ol {
+    color: #ff4500; /* Orange Red for ordered lists */
+    margin-left: 20px;
+}
+
+ul {
+    color: #32cd32; /* Lime Green for unordered lists */
+    margin-left: 20px;
+}
+
+/* Images in the Gallery */
+.gallery-img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #1e90ff; /* Dodger Blue border for a clean frame */
+    border-radius: 5px;
+    
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    background: #ffffff; /* White background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px;
+}
+
+/* Footer (Optional) */
+footer {
+    background: #1e90ff; /* Match the header */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
